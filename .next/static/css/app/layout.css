@@ -1,0 +1,80 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/styles/globals.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.swiper-pagination {
+  --swiper-pagination-color: #adadad;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #5a6d57;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  color: red;
+}
+::-webkit-scrollbar-thumb {
+  background: #748c70;
+  border-radius: 6px;
+}
+
+.css-14gnb2k-MuiPaper-root-MuiAccordion-root {
+  border-radius: 0px !important;
+}
+
+.css-14gnb2k-MuiPaper-root-MuiAccordion-root:first-of-type {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.css-14gnb2k-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: none;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/theme/ThemRegistery.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"weight":["400","600","700"],"display":"swap"}],"variableName":"montserrat"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Montserrat_Fallback_409de3';
+  src: local("Arial");
+  ascent-override:85.79%;
+  descent-override:22.25%;
+  line-gap-override:0.00%;
+  size-adjust:112.83%;
+}@font-face {font-family: '__Montserrat_Fallback_Fallback_409de3';src: local("Arial");ascent-override: 85.79%;descent-override: 22.25%;line-gap-override: 0.00%;size-adjust: 112.83%
+}.__className_409de3 {font-family: '__Montserrat_Fallback_409de3', '__Montserrat_Fallback_Fallback_409de3';font-style: normal
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/theme/ThemRegistery.tsx","import":"Caveat","arguments":[{"subsets":["latin"],"weight":["500"],"display":"swap"}],"variableName":"caveat"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Caveat_Fallback_5702f9';
+  src: local("Arial");
+  ascent-override:124.77%;
+  descent-override:38.99%;
+  line-gap-override:0.00%;
+  size-adjust:76.94%;
+}@font-face {font-family: '__Caveat_Fallback_Fallback_5702f9';src: local("Arial");ascent-override: 124.77%;descent-override: 38.99%;line-gap-override: 0.00%;size-adjust: 76.94%
+}.__className_5702f9 {font-family: '__Caveat_Fallback_5702f9', '__Caveat_Fallback_Fallback_5702f9';font-weight: 500;font-style: normal
+}
